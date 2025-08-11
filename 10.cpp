@@ -30,24 +30,24 @@
 //#include "func.h"
 //void func1()
 //{
-//	printf("func1() ÇÔ¼ö¸¦ ½ÇÇàÇÕ´Ï´Ù.\n");
+//	printf("func1() í•¨ìˆ˜ë¥¼ ì‹¤í–‰í•©ë‹ˆë‹¤.\n");
 //}
 //
 //func2.c
 //#include "func.h"
 //void func2()
 //{
-//	printf("func2() ÇÔ¼ö¸¦ ½ÇÇàÇÕ´Ï´Ù.\n");
+//	printf("func2() í•¨ìˆ˜ë¥¼ ì‹¤í–‰í•©ë‹ˆë‹¤.\n");
 //}
 
 //#include <stdio.h>
 //#define PI 3.1415926535
-//#define STR "¿øÀÇ ¸éÀûÀ» °è»êÇß½À´Ï´Ù.\n"
-//#define END_MSG printf("ÇÁ·Î±×·¥ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù.\n\n")
+//#define STR "ì›ì˜ ë©´ì ì„ ê³„ì‚°í–ˆìŠµë‹ˆë‹¤.\n"
+//#define END_MSG printf("í”„ë¡œê·¸ëž¨ì´ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.\n\n")
 //
 //void main()
 //{
-//	printf("¹ÝÁö¸§ÀÌ 10ÀÎ ¿øÀÇ ¸éÀûÀº ==> %10.5f\n", 10 * 10 * PI);
+//	printf("ë°˜ì§€ë¦„ì´ 10ì¸ ì›ì˜ ë©´ì ì€ ==> %10.5f\n", 10 * 10 * PI);
 //
 //	printf(STR);
 //
@@ -55,6 +55,7 @@
 //}
 
 #include <stdio.h>
+void myfunc();
 
 void main()
 {
@@ -67,5 +68,6 @@ void myfunc()
 	static int a = 0;
 
 	a = a + 100;
-	printf("aÀÇ °ª ==> %d\n", a);
+	printf("aì˜ ê°’ ==> %d\n", a);
+
 }
